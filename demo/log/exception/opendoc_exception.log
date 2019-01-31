@@ -1,0 +1,67 @@
+2019-01-31 15:14:54.421 -ERROR  [           main] LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j,config
+    Origin: class path resource [application.yml]:14:16
+    Reason: org.apache.log4j.Logger
+
+Action:
+
+Update your application's configuration
+
+2019-01-31 15:16:52.759 -ERROR  [           main] LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource:
+
+    Reason: No setter found for property: filter-class-names
+
+Action:
+
+Update your application's configuration
+
+2019-01-31 15:18:32.049 -ERROR  [           main] LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource:
+
+    Reason: No setter found for property: filter-class-names
+
+Action:
+
+Update your application's configuration
+
+2019-01-31 15:18:50.559 -ERROR  [           main] LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource:
+
+    Reason: No setter found for property: filter-class-names
+
+Action:
+
+Update your application's configuration
+

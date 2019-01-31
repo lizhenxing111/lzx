@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tools.demo.generator.dao.TableMapper" >
+  <!-- 获取当前数据库用户的所有表 -->
+  <select id="getDataTable" parameterType="java.lang.String" resultType="java.lang.String">
+      select table_name from information_schema.tables where table_schema='demo'
+  </select>
+  <!-- 获取某个表的所有的列的信息 -->
+   <select id="getDataTableColum" parameterType="java.lang.String" resultType="com.tools.demo.generator.model.DataBaseTable" >
+    <!-- select
+       		a.TABLE_NAME,a.COLUMN_NAME,a.DATA_TYPE,a.DATA_LENGTH,b.COMMENTS  
+    from user_tab_columns a
+	left join user_col_comments b on a.COLUMN_NAME=b.COLUMN_NAME and  a.TABLE_NAME=b.TABLE_NAME
+	where a.TABLE_NAME=#{tableName,jdbcType=VARCHAR} -->
+	
+	SELECT
+			#{tableName,jdbcType=VARCHAR} TABLE_NAME,COLUMN_NAME,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH DATA_LENGTH,COLUMN_COMMENT COMMENTS 
+	FROM
+ 			INFORMATION_SCHEMA.COLUMNS
+	where
+			TABLE_NAME=#{tableName,jdbcType=VARCHAR}
+  </select>
+  <!--获取当前数据库用户的所有序列-->
+   <select id="getSequence" resultType="com.tools.demo.generator.model.Sequence" >
+    	select SEQUENCE_NAME,LAST_NUMBER,MIN_VALUE,MAX_VALUE from user_sequences
+  </select>
+</mapper>

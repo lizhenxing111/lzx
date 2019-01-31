@@ -1,0 +1,219 @@
+2019-01-31 15:14:52.889 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ToolsApplication on lzxC with PID 9692 (G:\workspace2018\demo\target\classes started by Administrator in G:\workspace2018\demo)
+2019-01-31 15:14:52.895 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-01-31 15:14:53.356 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.tools.demo]' package. Please check your configuration.
+2019-01-31 15:14:53.387 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-31 15:14:53.390 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 15:14:53.409 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-01-31 15:14:53.617 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6668c35d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 15:14:53.859 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-01-31 15:14:53.871 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-31 15:14:53.880 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-31 15:14:53.880 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-31 15:14:53.886 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\bin;%HADOOP_HOME/bin;%HADOOP_HOME/sbin;D:\Program Files\apache-maven-3.2.5\bin;D:\scala-2.12.4\bin;D:\svn\bin;C:\Program Files\TortoiseSVN\bin;G:\Program Files\Git\cmd;D:\Program Files\Redis\;D:\mysql8\bin;;C:\Users\Administrator\Desktop;;.]
+2019-01-31 15:14:53.967 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-31 15:14:53.969 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1011 ms
+2019-01-31 15:14:54.296 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-01-31 15:14:54.393 - WARN  [           main] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tableGeneraterController': Unsatisfied dependency expressed through field 'tableMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tableMapper' defined in file [G:\workspace2018\demo\target\classes\com\tools\demo\generator\dao\TableMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'dataSource': Could not bind properties to 'DruidDataSourceWrapper' : prefix=spring.datasource.druid, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource
+2019-01-31 15:14:54.404 - INFO  [           main] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-01-31 15:14:54.418 - INFO  [           main] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-31 15:16:51.285 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ToolsApplication on lzxC with PID 12140 (G:\workspace2018\demo\target\classes started by Administrator in G:\workspace2018\demo)
+2019-01-31 15:16:51.290 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-01-31 15:16:51.752 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.tools.demo]' package. Please check your configuration.
+2019-01-31 15:16:51.782 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-31 15:16:51.784 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 15:16:51.803 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-01-31 15:16:52.003 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$515f29e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 15:16:52.237 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-01-31 15:16:52.248 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-31 15:16:52.255 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-31 15:16:52.256 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-31 15:16:52.261 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\bin;%HADOOP_HOME/bin;%HADOOP_HOME/sbin;D:\Program Files\apache-maven-3.2.5\bin;D:\scala-2.12.4\bin;D:\svn\bin;C:\Program Files\TortoiseSVN\bin;G:\Program Files\Git\cmd;D:\Program Files\Redis\;D:\mysql8\bin;;C:\Users\Administrator\Desktop;;.]
+2019-01-31 15:16:52.334 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-31 15:16:52.334 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1011 ms
+2019-01-31 15:16:52.646 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-01-31 15:16:52.732 - WARN  [           main] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tableGeneraterController': Unsatisfied dependency expressed through field 'tableMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tableMapper' defined in file [G:\workspace2018\demo\target\classes\com\tools\demo\generator\dao\TableMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'dataSource': Could not bind properties to 'DruidDataSourceWrapper' : prefix=spring.datasource.druid, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource
+2019-01-31 15:16:52.742 - INFO  [           main] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-01-31 15:16:52.756 - INFO  [           main] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-31 15:18:30.509 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ToolsApplication on lzxC with PID 11792 (G:\workspace2018\demo\target\classes started by Administrator in G:\workspace2018\demo)
+2019-01-31 15:18:30.514 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-01-31 15:18:30.995 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.tools.demo]' package. Please check your configuration.
+2019-01-31 15:18:31.024 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-31 15:18:31.027 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 15:18:31.047 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-01-31 15:18:31.256 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$795ec0da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 15:18:31.499 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-01-31 15:18:31.510 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-31 15:18:31.518 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-31 15:18:31.518 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-31 15:18:31.524 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\bin;%HADOOP_HOME/bin;%HADOOP_HOME/sbin;D:\Program Files\apache-maven-3.2.5\bin;D:\scala-2.12.4\bin;D:\svn\bin;C:\Program Files\TortoiseSVN\bin;G:\Program Files\Git\cmd;D:\Program Files\Redis\;D:\mysql8\bin;;C:\Users\Administrator\Desktop;;.]
+2019-01-31 15:18:31.603 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-31 15:18:31.603 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2019-01-31 15:18:31.930 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-01-31 15:18:32.020 - WARN  [           main] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tableGeneraterController': Unsatisfied dependency expressed through field 'tableMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tableMapper' defined in file [G:\workspace2018\demo\target\classes\com\tools\demo\generator\dao\TableMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'dataSource': Could not bind properties to 'DruidDataSourceWrapper' : prefix=spring.datasource.druid, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource
+2019-01-31 15:18:32.031 - INFO  [           main] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-01-31 15:18:32.046 - INFO  [           main] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-31 15:18:49.045 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ToolsApplication on lzxC with PID 5584 (G:\workspace2018\demo\target\classes started by Administrator in G:\workspace2018\demo)
+2019-01-31 15:18:49.049 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-01-31 15:18:49.516 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.tools.demo]' package. Please check your configuration.
+2019-01-31 15:18:49.546 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-31 15:18:49.549 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 15:18:49.568 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-01-31 15:18:49.777 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eeb2cec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 15:18:50.017 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-01-31 15:18:50.029 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-31 15:18:50.036 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-31 15:18:50.037 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-31 15:18:50.043 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\bin;%HADOOP_HOME/bin;%HADOOP_HOME/sbin;D:\Program Files\apache-maven-3.2.5\bin;D:\scala-2.12.4\bin;D:\svn\bin;C:\Program Files\TortoiseSVN\bin;G:\Program Files\Git\cmd;D:\Program Files\Redis\;D:\mysql8\bin;;C:\Users\Administrator\Desktop;;.]
+2019-01-31 15:18:50.115 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-31 15:18:50.116 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
+2019-01-31 15:18:50.442 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-01-31 15:18:50.530 - WARN  [           main] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tableGeneraterController': Unsatisfied dependency expressed through field 'tableMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tableMapper' defined in file [G:\workspace2018\demo\target\classes\com\tools\demo\generator\dao\TableMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'dataSource': Could not bind properties to 'DruidDataSourceWrapper' : prefix=spring.datasource.druid, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource
+2019-01-31 15:18:50.541 - INFO  [           main] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-01-31 15:18:50.555 - INFO  [           main] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-31 15:18:57.088 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ToolsApplication on lzxC with PID 11692 (G:\workspace2018\demo\target\classes started by Administrator in G:\workspace2018\demo)
+2019-01-31 15:18:57.093 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-01-31 15:18:57.559 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.tools.demo]' package. Please check your configuration.
+2019-01-31 15:18:57.589 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-31 15:18:57.591 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 15:18:57.610 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-01-31 15:18:57.821 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$67b7196e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 15:18:58.060 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-01-31 15:18:58.070 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-31 15:18:58.079 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-31 15:18:58.079 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-31 15:18:58.085 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\bin;%HADOOP_HOME/bin;%HADOOP_HOME/sbin;D:\Program Files\apache-maven-3.2.5\bin;D:\scala-2.12.4\bin;D:\svn\bin;C:\Program Files\TortoiseSVN\bin;G:\Program Files\Git\cmd;D:\Program Files\Redis\;D:\mysql8\bin;;C:\Users\Administrator\Desktop;;.]
+2019-01-31 15:18:58.159 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-31 15:18:58.159 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 998 ms
+2019-01-31 15:18:58.485 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-01-31 15:18:58.698 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2019-01-31 15:18:59.051 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-31 15:18:59.143 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-01-31 15:18:59.144 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-01-31 15:18:59.144 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-01-31 15:18:59.145 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear EntityHelper entityTableMap cache.
+2019-01-31 15:18:59.320 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2019-01-31 15:18:59.336 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-31 15:18:59.338 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ToolsApplication in 2.445 seconds (JVM running for 3.155)
+2019-01-31 15:19:09.608 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-31 15:19:09.608 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-31 15:19:09.613 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2019-01-31 15:24:05.685 - INFO  [on(2)-127.0.0.1] gistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-01-31 15:24:05.687 - INFO  [on(2)-127.0.0.1] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-31 15:24:05.691 - INFO  [on(2)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closed
+2019-01-31 15:26:17.211 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ToolsApplication on lzxC with PID 12076 (G:\workspace2018\demo\target\classes started by Administrator in G:\workspace2018\demo)
+2019-01-31 15:26:17.216 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-01-31 15:26:17.703 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.tools.demo]' package. Please check your configuration.
+2019-01-31 15:26:17.733 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-31 15:26:17.736 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 15:26:17.754 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-01-31 15:26:17.971 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e15df613] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 15:26:18.218 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-01-31 15:26:18.228 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-31 15:26:18.235 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-31 15:26:18.235 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-31 15:26:18.240 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\bin;%HADOOP_HOME/bin;%HADOOP_HOME/sbin;D:\Program Files\apache-maven-3.2.5\bin;D:\scala-2.12.4\bin;D:\svn\bin;C:\Program Files\TortoiseSVN\bin;G:\Program Files\Git\cmd;D:\Program Files\Redis\;D:\mysql8\bin;;C:\Users\Administrator\Desktop;;.]
+2019-01-31 15:26:18.312 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-31 15:26:18.312 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1064 ms
+2019-01-31 15:26:18.614 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-01-31 15:26:18.819 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2019-01-31 15:26:19.154 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-31 15:26:19.258 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-01-31 15:26:19.259 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-01-31 15:26:19.259 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-01-31 15:26:19.260 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear EntityHelper entityTableMap cache.
+2019-01-31 15:26:19.437 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2019-01-31 15:26:19.454 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-31 15:26:19.457 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ToolsApplication in 2.445 seconds (JVM running for 3.137)
+2019-01-31 15:26:23.369 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-31 15:26:23.369 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-31 15:26:23.376 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 6 ms
+2019-01-31 15:33:40.357 - INFO  [nio-8080-exec-9] o.a.j.l.DirectJDKLog           : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:467) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+2019-01-31 16:27:07.860 - INFO  [on(2)-127.0.0.1] gistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-01-31 16:27:07.928 - INFO  [on(2)-127.0.0.1] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-31 16:27:07.962 - INFO  [on(2)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closed
+2019-01-31 16:50:39.558 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$241ac9f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 16:50:39.732 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-01-31 16:50:40.106 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.tools.demo]' package. Please check your configuration.
+2019-01-31 16:50:40.140 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-31 16:50:40.143 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 16:50:40.164 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-01-31 16:50:40.369 - INFO  [           main] o.s.c.c.s.GenericScope         : BeanFactory id=2eda8589-72f4-38d1-a543-2a3753f40feb
+2019-01-31 16:50:40.439 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$800c6f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 16:50:40.473 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$241ac9f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 16:50:40.749 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-01-31 16:50:40.759 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-31 16:50:40.766 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-31 16:50:40.767 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-31 16:50:40.772 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\bin;%HADOOP_HOME/bin;%HADOOP_HOME/sbin;D:\Program Files\apache-maven-3.2.5\bin;D:\scala-2.12.4\bin;D:\svn\bin;C:\Program Files\TortoiseSVN\bin;G:\Program Files\Git\cmd;D:\Program Files\Redis\;D:\mysql8\bin;;C:\Users\Administrator\Desktop;;.]
+2019-01-31 16:50:40.867 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-31 16:50:40.867 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1124 ms
+2019-01-31 16:50:40.942 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-01-31 16:50:41.385 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2019-01-31 16:50:42.048 - WARN  [           main] .n.a.ArchaiusAutoConfiguration : No spring.application.name found, defaulting to 'application'
+2019-01-31 16:50:42.051 - WARN  [           main] c.n.c.s.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2019-01-31 16:50:42.051 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-31 16:50:42.054 - WARN  [           main] c.n.c.s.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2019-01-31 16:50:42.054 - INFO  [           main] c.n.c.s.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-31 16:50:42.239 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-31 16:50:42.358 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-01-31 16:50:42.359 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-01-31 16:50:42.359 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-01-31 16:50:42.359 - INFO  [           main] t.m.m.a.MapperCacheDisabler    : Clear EntityHelper entityTableMap cache.
+2019-01-31 16:50:42.882 - INFO  [           main] o.s.c.n.e.InstanceInfoFactory  : Setting initial instance status as: STARTING
+2019-01-31 16:50:42.908 - INFO  [           main] c.n.d.DiscoveryClient          : Initializing Eureka in region us-east-1
+2019-01-31 16:50:43.319 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2019-01-31 16:50:43.319 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2019-01-31 16:50:43.396 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2019-01-31 16:50:43.396 - INFO  [           main] .n.d.p.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2019-01-31 16:50:43.519 - INFO  [           main] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2019-01-31 16:50:43.560 - INFO  [           main] c.n.d.DiscoveryClient          : Disable delta property : false
+2019-01-31 16:50:43.560 - INFO  [           main] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2019-01-31 16:50:43.561 - INFO  [           main] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2019-01-31 16:50:43.561 - INFO  [           main] c.n.d.DiscoveryClient          : Application is null : false
+2019-01-31 16:50:43.561 - INFO  [           main] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2019-01-31 16:50:43.561 - INFO  [           main] c.n.d.DiscoveryClient          : Application version is -1: true
+2019-01-31 16:50:43.561 - INFO  [           main] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2019-01-31 16:50:43.696 - INFO  [           main] c.n.d.DiscoveryClient          : The response status is 200
+2019-01-31 16:50:43.698 - INFO  [           main] c.n.d.DiscoveryClient          : Starting heartbeat executor: renew interval is: 30
+2019-01-31 16:50:43.700 - INFO  [           main] c.n.d.InstanceInfoReplicator   : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-31 16:50:43.703 - INFO  [           main] c.n.d.DiscoveryClient          : Discovery Client initialized at timestamp 1548924643702 with initial instances count: 0
+2019-01-31 16:50:43.705 - INFO  [           main] .c.n.e.s.EurekaServiceRegistry : Registering application UNKNOWN with eureka with status UP
+2019-01-31 16:50:43.706 - INFO  [           main] c.n.d.DiscoveryClient$3        : Saw local status change event StatusChangeEvent [timestamp=1548924643706, current=UP, previous=STARTING]
+2019-01-31 16:50:43.708 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_UNKNOWN/windows10.microdone.cn:8080: registering service...
+2019-01-31 16:50:43.718 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2019-01-31 16:50:43.739 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-31 16:50:43.740 - INFO  [           main] .EurekaAutoServiceRegistration : Updating port to 8080
+2019-01-31 16:50:43.742 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ToolsApplication in 4.661 seconds (JVM running for 5.869)
+2019-01-31 16:50:43.798 - INFO  [nfoReplicator-0] c.n.d.DiscoveryClient          : DiscoveryClient_UNKNOWN/windows10.microdone.cn:8080 - registration status: 204
+2019-01-31 16:50:46.505 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-31 16:50:46.505 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-31 16:50:46.514 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 9 ms
+2019-01-31 16:51:13.699 - INFO  [freshExecutor-0] c.n.d.DiscoveryClient          : Disable delta property : false
+2019-01-31 16:51:13.699 - INFO  [freshExecutor-0] c.n.d.DiscoveryClient          : Single vip registry refresh property : null
+2019-01-31 16:51:13.700 - INFO  [freshExecutor-0] c.n.d.DiscoveryClient          : Force full registry fetch : false
+2019-01-31 16:51:13.700 - INFO  [freshExecutor-0] c.n.d.DiscoveryClient          : Application is null : false
+2019-01-31 16:51:13.700 - INFO  [freshExecutor-0] c.n.d.DiscoveryClient          : Registered Applications size is zero : true
+2019-01-31 16:51:13.700 - INFO  [freshExecutor-0] c.n.d.DiscoveryClient          : Application version is -1: false
+2019-01-31 16:51:13.701 - INFO  [freshExecutor-0] c.n.d.DiscoveryClient          : Getting all instance registry info from the eureka server
+2019-01-31 16:51:13.748 - INFO  [freshExecutor-0] c.n.d.DiscoveryClient          : The response status is 200
+2019-01-31 16:55:43.568 - INFO  [trap-executor-0] .d.s.r.a.ConfigClusterResolver : Resolving eureka endpoints via configuration
