@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /lzx
+  port: 1000
+spring:
+  application:
+    name: eureka-server
+  security:
+    user:
+      name: lzx
+      password: 123456
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+  instance:
+    hostname: localhost
+    statusPageUrlPath: $ {server.servletPath}/info 
+    healthCheckUrlPath: $ {server.servletPath}/health
+    metadata-map:
+      key1: 我的元数据

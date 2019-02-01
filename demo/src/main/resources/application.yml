@@ -1,8 +1,11 @@
 #端口
 server:
   port: 8080
+  servlet:    context-path: /
 spring:
   #数据源
+  application:    name: generator
+    
   datasource:
     name: druidDataSource
     type: com.alibaba.druid.pool.DruidDataSource
@@ -49,7 +52,11 @@ mybatis:
 logging:
   config: classpath:log4j2.yml
 eureka:
+  instance:
+    home-page-url: /html
   client:
     serviceUrl:
-      defaultZone: http://localhost:1000/eureka/
-    
+      defaultZone: http://lzx:123456@localhost:1000/lzx/eureka/
+    healthcheck:      enabled: true
+management:  endpoint:    health:      show-details: always
+    info:      enabled: true
